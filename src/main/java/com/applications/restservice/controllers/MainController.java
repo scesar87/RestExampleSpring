@@ -19,6 +19,6 @@ public class MainController {
 	
 	@PostMapping
 	public String ingresarProducto(@RequestParam Producto producto) {
-		return "Propucto ingresado con éxito";	
+		return "Producto ingresado con éxito";	
 	}
 }
